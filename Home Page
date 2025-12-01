@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>This Is Why I Don't Read Romance – Free to Read</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: "Georgia", "Times New Roman", serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #222222;
+    }
+    .wrapper {
+      max-width: 760px;
+      margin: 40px auto 60px auto;
+      padding: 0 16px;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.3rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-top: 0;
+      color: #555555;
+    }
+    .button-group {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 24px 0;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 22px;
+      background-color: #b6434d;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    a.button:hover {
+      background-color: #92353d;
+    }
+    a.button.secondary {
+      background-color: #666666;
+    }
+    a.button.secondary:hover {
+      background-color: #444444;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .note {
+      font-style: italic;
+      color: #555555;
+      font-size: 0.95rem;
+    }
+    iframe {
+      width: 100%;
+      height: 80vh;
+      border: 1px solid #dddddd;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>This Is Why I Don't Read Romance</h1>
+    <h2>by Omar Rashid Lone</h2>
+
+    <p>
+      You can read the full book for free below,
+      or download it to keep.
+    </p>
+
+    <div class="button-group">
+      <a class="button" href="This-Is-Why-I-Dont-Read-Romance.pdf" target="_blank">
+        📖 Read Online
+      </a>
+      <a class="button secondary" href="This-Is-Why-I-Dont-Read-Romance.pdf" download>
+        ⬇️ Download PDF
+      </a>
+    </div>
+
+    <p class="note">
+      Tip: If the viewer below is small on mobile, use the "Read Online" button above to open the PDF full-screen.
+    </p>
+
+    <!-- Embedded PDF viewer -->
+    <iframe
+      src="This-Is-Why-I-Dont-Read-Romance.pdf"
+      title="This Is Why I Don't Read Romance">
+    </iframe>
+  </div>
+</body>
+</html>
